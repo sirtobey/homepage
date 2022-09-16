@@ -1,4 +1,4 @@
-import { useClock } from "../hooks/useClock";
+import { useClock } from "../../hooks/useClock";
 import "./Header.css";
 
 export function Header() {

@@ -543,3 +543,7 @@ table a {
 .column {
   flex: 1;
 }
+
+ul {
+  list-style-type: none;
+}
