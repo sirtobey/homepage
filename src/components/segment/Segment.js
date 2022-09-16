@@ -10,6 +10,12 @@ export function Segment() {
           <span>Beer</span>
         </a>
       </li>
+      <li>
+        <a href="https://beer.ch">
+          <FaBeer className="icon" />
+          <span>Beer</span>
+        </a>
+      </li>
     </ul>
   );
 }

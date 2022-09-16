@@ -2,6 +2,10 @@
   flex: 1;
 }
 
+.segment:not(:last-of-type) {
+  border-right: 2px solid black;
+}
+
 .icon {
   width: 2rem;
   height: 2rem;
