@@ -1,15 +1,11 @@
 import { FaBeer } from "react-icons/fa";
 import "./App.css";
-import { useClock } from "./hooks/useClock";
+import { Header } from "./components/Header";
 
 function App() {
-  const [time] = useClock();
   return (
     <div className="content">
-      <section id="header">
-        <h2 id="header_date">{time}</h2>
-        <h1 id="header_greet">Good Morning, Sarah</h1>
-      </section>
+      <Header />
       <main className="columns">
         <div className="column">
           <ul>
