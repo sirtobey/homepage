@@ -1,7 +1,7 @@
 .header {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: end;
   margin-top: 6rem;
 }
@@ -13,8 +13,4 @@
 
 .time {
   font-size: 2rem;
-}
-
-.hr {
-  margin: 1rem 3rem 2rem;
 }
