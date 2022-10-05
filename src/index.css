@@ -535,11 +535,13 @@ table a {
   display: flex;
   flex-direction: column;
   padding: 2rem;
+  height: 100vh;
 }
 
 .columns {
   display: flex;
   flex-direction: row;
+  margin-top: 3rem;
 }
 .column {
   flex: 1;

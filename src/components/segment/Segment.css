@@ -1,9 +1,15 @@
 .segment {
   flex: 1;
+  padding: 0;
+  margin: 0;
 }
 
 .segment:not(:last-of-type) {
   border-right: 2px solid black;
+}
+
+.segment:not(:first-of-type) {
+  margin-left: 3rem;
 }
 
 .icon {
