@@ -9,7 +9,7 @@
 }
 
 .segment:not(:first-of-type) {
-  margin-left: 3rem;
+  padding-left: 3rem;
 }
 
 .icon {
